@@ -1,0 +1,26 @@
+{
+    "name": "artjoker/sendpulse-laravel",
+    "description": "SendPulse REST API client for Laravel",
+    "keywords": [
+        "artjoker",
+        "sendpulse-laravel"
+    ],
+    "homepage": "https://github.com/artjoker/sendpulse-laravel",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Volodymyr Taranenko",
+            "email": "v.taranenko@artjoker.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Artjoker\\SendpulseLaravel\\": "src"
+        }
+    }
+}
