@@ -22,5 +22,7 @@
         "psr-4": {
             "Artjoker\\SendpulseLaravel\\": "src"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
