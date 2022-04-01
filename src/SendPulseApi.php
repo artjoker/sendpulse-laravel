@@ -17,7 +17,7 @@ use Memcache;
 use Exception;
 use Artjoker\SendpulseLaravel\Contracts\SendPulseApi as SendPulseApiContract;
 
-class SendpulseApi implements SendPulseApiContract
+class SendPulseApi implements SendPulseApiContract
 {
     private $apiUrl = 'https://api.sendpulse.com';
 
