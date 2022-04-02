@@ -340,4 +340,13 @@ interface SendPulseApi
      * @param array $additionalParams
      */
     public function createPushTask($taskInfo, $additionalParams = array());
+
+    /**
+     * Send SMS
+     *
+     * @param array $phones
+     * @param array $params
+     * @param array $additionalParams
+     */
+    public function sendSmsByList(array $phones, array $params, array $additionalParams);
 }
